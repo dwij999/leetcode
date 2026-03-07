@@ -1,3 +1,18 @@
+// Description:  
+// This Java solution implements the classic Reverse Integer problem. It extracts digits one by one, builds the reversed number, and includes overflow/underflow checks against 32‑bit signed integer limits (-2,147,483,648 to 2,147,483,647). If reversing would exceed these bounds, the function safely returns 0.
+
+// Key points:
+
+// Uses modulo (%) and division (/) to process digits.
+
+// Maintains a running reversed value (rev).
+
+// Prevents overflow/underflow with boundary checks before updating rev.
+
+// Returns the reversed integer or 0 if invalid.
+
+
+
 
 class Solution {
     public int reverse(int x) {
